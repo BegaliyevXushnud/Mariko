@@ -1,0 +1,20 @@
+
+.experts{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    h1{
+        font-family: Poppins;
+font-size: 75px;
+font-weight: 600;
+line-height: 112px;
+text-align: left;
+color: #FFFFFF;
+    }
+    img{
+        width: 100%;
+    }
+}

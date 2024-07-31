@@ -1,0 +1,36 @@
+.helped {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-image: url('../../img/Image-5.svg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: #ffffff;
+      padding: 20px 40px;
+      border-radius: 10px;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .helped h1 {
+      font-size: 48px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .helped h1 {
+      font-size: 60px;
+    }
+  }
+  

@@ -1,0 +1,99 @@
+
+.homepage{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+.homepage-text{
+    display: flex;
+align-items: self-start;
+    flex-direction: column;
+    gap: 30px;
+    .homepage-text-desc{
+        font-family: Poppins;
+font-size: 30px;
+font-weight: 500;
+line-height: 45px;
+text-align: left;
+color: #FFFFFF;
+    }
+    .homepage-art{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        h1{
+            font-family: Poppins;
+font-size: 75px;
+font-weight: 600;
+line-height: 112px;
+text-align: left;
+color: #FFFFFF;
+span{
+    color: #3C82F4;
+}
+        }
+        h4{
+            font-family: Poppins;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 84px;
+        text-align: left;
+        color: #FFFFFF;
+        span{
+            padding: 15px 15px;
+            background-color: #2D2D2D;
+            color: white;
+            border-radius: 50%;
+        }
+        }
+        .homepage-text-button{
+            display: flex;
+            gap: 20px;
+            .homepage-text-button-1{
+                width: 207px;
+height: 65px;
+background-color: #326CF9;
+color: #FFFFFF;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+              &:hover{
+                color: #ffffff;
+                background: #008cff;
+                border: 1px solid #008cff;
+                text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+                box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+                0 0 100px #008cff;
+              }
+
+            }
+            .homepage-text-button-2{
+                width: 207px;
+height: 65px;
+background: transparent;
+border: 1px solid #707070;
+color: #707070;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+              &:hover{
+                color: #ffffff;
+                background: #008cff;
+                border: 1px solid #008cff;
+                text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+                box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+                0 0 100px #008cff;
+              }
+            }
+        }
+    }
+}
+}
+@media (min-width:1200px) {
+    .homepage{
+        flex-direction: row;
+    }
+}
